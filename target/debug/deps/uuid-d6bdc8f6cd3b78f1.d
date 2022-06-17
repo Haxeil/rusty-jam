@@ -1,0 +1,15 @@
+/home/haxeil/Dev/rusty-jam/target/debug/deps/uuid-d6bdc8f6cd3b78f1.rmeta: /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/lib.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/builder/mod.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/builder/error.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/error.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/parser/mod.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/parser/error.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/prelude.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/adapter/mod.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/adapter/compact.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/serde_support.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/v4.rs
+
+/home/haxeil/Dev/rusty-jam/target/debug/deps/uuid-d6bdc8f6cd3b78f1.d: /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/lib.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/builder/mod.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/builder/error.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/error.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/parser/mod.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/parser/error.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/prelude.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/adapter/mod.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/adapter/compact.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/serde_support.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/v4.rs
+
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/lib.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/builder/mod.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/builder/error.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/error.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/parser/mod.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/parser/error.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/prelude.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/adapter/mod.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/adapter/compact.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/serde_support.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/uuid-0.8.2/src/v4.rs:

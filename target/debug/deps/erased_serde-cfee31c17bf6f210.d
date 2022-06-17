@@ -1,0 +1,13 @@
+/home/haxeil/Dev/rusty-jam/target/debug/deps/erased_serde-cfee31c17bf6f210.rmeta: /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/lib.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/macros.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/any.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/de.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/error.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/features_check/mod.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/map.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/ser.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/private.rs
+
+/home/haxeil/Dev/rusty-jam/target/debug/deps/erased_serde-cfee31c17bf6f210.d: /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/lib.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/macros.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/any.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/de.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/error.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/features_check/mod.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/map.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/ser.rs /home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/private.rs
+
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/lib.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/macros.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/any.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/de.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/error.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/features_check/mod.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/map.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/ser.rs:
+/home/haxeil/.cargo/registry/src/github.com-1ecc6299db9ec823/erased-serde-0.3.20/src/private.rs:
