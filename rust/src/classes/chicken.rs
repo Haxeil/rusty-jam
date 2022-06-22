@@ -54,7 +54,7 @@ impl Chicken {
     // The owner is passed to every single exposed method.
     #[export]
     unsafe fn _ready(&mut self, owner: &KinematicBody) {
-        
+        godot_print!("Ayour YA Zamel");
         let ecs = owner.get_node_as::<Node>("/root/EcsSingleton");
 
         if let Some(ecs) = ecs {

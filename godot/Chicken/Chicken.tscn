@@ -9,6 +9,7 @@ points = PoolVector3Array( 1, 0, 0.499804, 0.995106, 0.0978857, 0.499804, 0.9800
 
 [node name="Chicken" type="KinematicBody"]
 script = ExtResource( 1 )
+max_health = 100.0
 
 [node name="MeshInstance" type="MeshInstance" parent="."]
 transform = Transform( 0.788114, 0.601237, -0.131874, 0.193199, -0.0382072, 0.980415, 0.584423, -0.798157, -0.14627, 0, 0, 0 )
