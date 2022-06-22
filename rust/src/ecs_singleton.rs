@@ -1,8 +1,10 @@
-use gdnative::api::*;
-use gdnative::prelude::*;
+use crate::ecs::sync::{events::*, resources::*};
 use bevy_ecs::prelude::*;
 use bevy_ecs::world::World;
-use crate::ecs::sync::{resources::*, events::*};
+use gdnative::api::*;
+use gdnative::prelude::*;
+use crate::ecs::components::*;
+
 /// The EcsSingleton "class"
 #[derive(NativeClass)]
 #[inherit(Node)]
@@ -18,8 +20,7 @@ pub struct EcsSingleton {
 #[methods]
 impl EcsSingleton {
     // Register the builder for methods, properties and/or signals.
-    fn register_builder(_builder: &ClassBuilder<Self>) {
-    }
+    fn register_builder(_builder: &ClassBuilder<Self>) {}
 
     /// The "constructor" of the class.
     fn new(_owner: &Node) -> Self {
@@ -28,7 +29,6 @@ impl EcsSingleton {
             schedule_process: Schedule::default(),
             schedule_physics: Schedule::default(),
         }
-
     }
 
     // In order to make a method known to Godot, the #[export] attribute has to be used.
@@ -39,16 +39,11 @@ impl EcsSingleton {
     unsafe fn _ready(&mut self, _owner: &Node) {
         self.init_resources(_owner);
 
-        self.schedule_physics.add_stage(
-            "physics",
-            SystemStage::single_threaded()
-  
-        );
+        self.schedule_physics
+            .add_stage("physics", SystemStage::single_threaded());
 
-        self.schedule_process.add_stage(
-            "process",
-            SystemStage::single_threaded()
-        );
+        self.schedule_process
+            .add_stage("process", SystemStage::single_threaded());
     }
 
     // This function will be called in every frame
@@ -58,13 +53,33 @@ impl EcsSingleton {
         update_delta_resource::<ProcessDelta>(&mut self.world, delta as f32);
         self.schedule_process.run(&mut self.world);
     }
+    // this function will be called in every physics frame;
     #[export]
     fn _physics_process(&mut self, _owner: &Node, delta: f64) {
         update_delta_resource::<PhysicsDelta>(&mut self.world, delta as f32);
         self.schedule_physics.run(&mut self.world);
     }
-}
 
+    #[export]
+    fn add_chicken_to_ecs(
+        &mut self, 
+        _owner: &Node, 
+        chicken: Ref<KinematicBody>,
+        animation_player: Ref<AnimationPlayer>,
+        max_speed: f32, 
+        max_health: f32
+
+    ) {
+        self.world
+            .spawn()
+            .insert(Chicken(chicken))
+            .insert(Animation(animation_player))
+            .insert(Speed::from(max_speed))
+            .insert(Health::from(max_health));            
+
+    }
+
+}
 
 impl EcsSingleton {
     fn init_resources(&mut self, _owner: &Node) {

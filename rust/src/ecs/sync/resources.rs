@@ -1,4 +1,3 @@
-
 pub trait Delta {
     fn set_delta(&mut self, delta: f32);
 }
